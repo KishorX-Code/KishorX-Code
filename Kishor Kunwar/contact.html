@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+       /* Body and Background */
+       body {
+           font-family: Arial, sans-serif;
+           line-height: 1.6;
+           color: #333;
+           background: linear-gradient(to bottom left, #7089b3, #c4818d);
+           min-height: 100vh;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+       /* Container */
+       .container2 {
+           width: 90%;
+           max-width: 1200px;
+           margin: 0 auto;
+       }
+       /* Navbar */
+       .nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #ff0000;
+    position: sticky;
+    color: white;
+}
+
+header {
+    padding: 0;
+}
+
+.H1 {
+    text-align: center; 
+    margin: 0;
+    color: white;
+    flex-grow: 1; 
+}
+
+section {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the boxes */
+    flex-wrap: wrap; /* Allow boxes to wrap if needed */
+    margin: 20px; /* Space around the section */
+}
+       .container {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           width: 70%;
+           background-color: #fff;
+           padding: 50px;
+           border-radius: 15px;
+           box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+       }
+       .form-container {
+           width: 45%;
+       }
+       h2 {
+           color: #8A2BE2;
+           font-size: 2.5rem;
+       }
+       input, textarea {
+           width: 100%;
+           padding: 15px;
+           margin: 10px 0;
+           border: 1px solid #ccc;
+           border-radius: 8px;
+           font-size: 1rem;
+       }
+       input[type="submit"] {
+           background: linear-gradient(90deg, #ff758c, #ff7eb3);
+           color: white;
+           border: none;
+           cursor: pointer;
+           transition: background 0.3s ease;
+       }
+       input[type="submit"]:hover {
+           background: linear-gradient(90deg, #ff7eb3, #ff758c);
+       }
+       .image-container {
+           width: 45%;
+       }
+       .image-container img {
+           width: 100%;
+           border-radius: 15px;
+       }
+       hr {
+           width: 200px;
+           left: 0;
+           margin-left: 0px;
+           margin-bottom: 20px;
+           border: 2px solid rgb(233, 156, 252);
+           border-radius: 2px;
+       }
+       .thank-you {
+           display: none;
+           text-align: center;
+           margin-top: 20px;
+       }
+       /* Responsive design for smaller screens */
+       @media (max-width: 768px) {
+           .container {
+               flex-direction: column;
+               width: 90%;
+           }
+           .form-container, .image-container {
+               width: 100%;
+           }
+       }
+    </style>
+</head>
+<body>
+     <header>
+        <nav class="nav">
+            <h1 class="H1">Tell Us About Your </h1>
+            </div>
+        </nav>
+    </header>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h2>Get in touch</h2>
+            <hr>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="160fe5dd-6582-47c7-8a10-9bea43aa47e8">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="number" name="number" placeholder="Your Number" required>
+                <input type="Address" placeholder="Your Address" required>
+                <input type="number" name="number" placeholder="Your House Number" required>
+                <input type="submit" value="Submit">
+            </form>
+            <div class="thank-you" id="thankYouMessage">
+                <h3>Thank you for your submission!</h3>
+                <p>Your message has been sent successfully.</p>
+               <a href="index.html">Go Back</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="message-icon_1076610-54995.avif" alt="Illustration of contact details">
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('contactForm');
+        const thankYouMessage = document.getElementById('thankYouMessage');
+
+        form.onsubmit = function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            // Here you would usually submit the form data via fetch or another method
+            // Simulating a successful form submission
+            thankYouMessage.style.display = 'block';
+            form.style.display = 'none'; // Hide the form
+        };
+
+        function goBack() {
+            thankYouMessage.style.display = 'none';
+            form.style.display = 'block'; // Show the form again
+            form.reset(); // Reset the form fields
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-image: url(coffee.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #ff0000;
+    position: sticky;
+    color: white;
+}
+
+header {
+    padding: 0;
+}
+
+.H1 {
+    text-align: center; 
+    margin: 0;
+    color: white;
+    flex-grow: 1; 
+}
+
+section {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin: 20px; 
+}
+
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 350px; 
+    border: 5px solid rgb(0, 0, 0);
+    margin: 30px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
+}
+
+
+.box:hover {
+    transform: scale(1.05); 
+}
+
+
+.box-image {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
+}
+
+
+.box-text {
+    margin-top: 10px; 
+    font-size: 24px; 
+    color: #333; 
+}
+
+
+.add-to-cart {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+.add-to-cart:hover {
+    background-color: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+    .box {
+        width: 200px; 
+        height: 300px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cart-item-image {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+    margin-right: 10px; 
+}
+
+.cart-item-text {
+    font-size: 16px; 
+}
+
+
+.total-amount {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+   
+}
+
+
+.cancel-button {
+    margin-left: 10px; 
+    padding: 5px 10px; 
+    background-color: #dc3545; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.cancel-button:hover {
+    background-color: #c82333;
+}
+
+
+#order-image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cancel-button {
+    margin-left: 10px; 
+    padding: 5px 10px;
+    background-color: #dc3545; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.cancel-button:hover {
+    background-color: #c82333; 
+}
+
+
+.cart-message {
+    text-align: center; 
+    font-size: 18px; 
+    color: green; 
+    margin-top: 20px; 
+}
+
+
+.cart-items {
+    position: relative;
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.order-button {
+    margin-left: 10px;
+    padding: 10px 20px; 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.order-button:hover {
+    background-color: #218838; 
+}
