@@ -10,6 +10,10 @@
 ![](https://github-readme-stats.vercel.app/api?username=KishorX-Code&theme=one_dark_pro&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=KishorX-Code&theme=one_dark_pro&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=KishorX-Code&theme=one_dark_pro&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+## 🧠 Featured Projects (Python & C)
+- [C Project: Reverse String](https://github.com/KishorX-Code/reverse-string)
+- [Python Project: Data Analyzer](https://github.com/KishorX-Code/data-analyzer)
+
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
