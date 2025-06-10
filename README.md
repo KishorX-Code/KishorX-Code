@@ -1,6 +1,5 @@
 # 👋 Hello Coder, It's me Kishor 👨‍💻
 
-Welcome to my GitHub profile! I'm passionate about programming, design, and game development.
 
 ---
 
