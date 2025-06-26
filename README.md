@@ -3,7 +3,7 @@
        alt="Cover Animation" 
        align="center" 
        width="800" 
-       height="500">
+       height="300">
 </p>
 
 
