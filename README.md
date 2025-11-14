@@ -47,15 +47,13 @@
 
 ---
 
-## 📊 GitHub Stats
+<h3 align="left">🔥   My Stats :</h3>
 
-![](https://github-readme-stats.vercel.app/api?username=KishorX-Code&theme=one_dark_pro&hide_border=false&include_all_commits=true&count_private=true)
+###
 
-![](https://nirzak-streak-stats.vercel.app/?user=KishorX-Code&theme=one_dark_pro&hide_border=false)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=KishorX-Code&theme=one_dark_pro&hide_border=false&layout=compact)
-
----
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+</div>
 
 ## 🐍 GitHub Snake Contribution Animation
 
