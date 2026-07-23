@@ -1,7 +1,9 @@
 <p align="center">
-  <a href="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmNlZjZ2NjFocGl3OXZoYzRlZnJsZ25wNnRqd29maTU1YmFsbm52MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif">
-    <img src="https://your-static-image.png" width="100%" alt="Click to view animation">
-  </a>
+  <img
+    src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmYExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif"
+    alt="Coding Animation"
+    width="100%"
+  />
 </p>
 
 # 👋 Hello Coder, I'm Kishor 👨‍💻
