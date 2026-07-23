@@ -62,7 +62,7 @@
 ## 🔝 Top Contributed Repositories
 
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=KishorX-Code&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+  <img src="https://github-contributor-stats.vercel.app/api?username=KishorX-Code&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repositories" />
 </p>
 
 ---
@@ -70,5 +70,5 @@
 ## 👀 Profile Views
 
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=KishorX-Code&icon=6&color=1" />
+  <img src="https://visitcount.itsvg.in/api?id=KishorX-Code&icon=6&color=1" alt="Profile Views" />
 </p>
